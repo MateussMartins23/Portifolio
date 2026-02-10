@@ -153,8 +153,18 @@ header {
 }
 
 /* Seção Projetos */
+.meusProjetos{
+    margin-top: 50px;
+   
+}
 .Projetos {
     padding: 5rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .Projetos-Titulo {
@@ -171,6 +181,7 @@ header {
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .Projetos-Card {
@@ -216,6 +227,12 @@ header {
 .Contato {
     padding: 5rem 2rem;
     background: linear-gradient(180deg, transparent, rgba(99, 102, 241, 0.05));
+    min-height: 80vh;
+    
+ 
+  
+    
+    
 }
 
 .Contato h2 {
